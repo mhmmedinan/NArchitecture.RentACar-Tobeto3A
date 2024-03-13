@@ -9,11 +9,11 @@
     }
   },
   "profiles": {
-    "http": {
+    "webAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5190",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
