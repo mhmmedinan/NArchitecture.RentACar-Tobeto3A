@@ -9,3 +9,4 @@ C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitec
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Debug\net8.0\refint\Insfrastructure.dll
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Debug\net8.0\Insfrastructure.pdb
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Debug\net8.0\ref\Insfrastructure.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Debug\net8.0\Insfrastructure.sourcelink.json

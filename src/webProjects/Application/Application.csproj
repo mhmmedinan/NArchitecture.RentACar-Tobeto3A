@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Brands\Rules\" />
-    <Folder Include="Features\Brands\Queries\" />
   </ItemGroup>
 
   <ItemGroup>

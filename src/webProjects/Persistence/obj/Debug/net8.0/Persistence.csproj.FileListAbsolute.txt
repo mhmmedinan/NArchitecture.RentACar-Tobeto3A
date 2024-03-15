@@ -19,3 +19,8 @@ C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitec
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\bin\Debug\net8.0\Application.dll
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\bin\Debug\net8.0\Core.Application.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\bin\Debug\net8.0\Core.Application.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Persistence\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb

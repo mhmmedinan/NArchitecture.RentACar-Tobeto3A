@@ -13,3 +13,4 @@ C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitec
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Domain\obj\Debug\net8.0\Domain.sourcelink.json

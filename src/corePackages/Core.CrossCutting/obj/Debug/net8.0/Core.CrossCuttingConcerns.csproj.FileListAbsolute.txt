@@ -1,0 +1,13 @@
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\bin\Debug\net8.0\Core.CrossCuttingConcerns.deps.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.AssemblyInfo.cs
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.sourcelink.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\refint\Core.CrossCuttingConcerns.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.CrossCutting\obj\Debug\net8.0\ref\Core.CrossCuttingConcerns.dll

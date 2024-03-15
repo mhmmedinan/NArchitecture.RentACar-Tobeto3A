@@ -1,0 +1,16 @@
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\bin\Debug\net8.0\Core.Application.deps.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\bin\Debug\net8.0\Core.Application.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\bin\Debug\net8.0\Core.Application.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.csproj.AssemblyReference.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.AssemblyInfoInputs.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.AssemblyInfo.cs
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.csproj.CoreCompileInputs.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.sourcelink.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.App.01B2A2D7.Up2Date
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\refint\Core.Application.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\Core.Application.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\obj\Debug\net8.0\ref\Core.Application.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\corePackages\Core.Application\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb

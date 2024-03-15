@@ -15,3 +15,8 @@ C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitec
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\bin\Debug\net8.0\Core.Persistence.pdb
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\bin\Debug\net8.0\Core.Application.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\bin\Debug\net8.0\Core.Application.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Application\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb

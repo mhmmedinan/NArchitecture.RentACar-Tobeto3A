@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kw+nw51ruekfNf7PzTVnWIWlWJ1HQBsbAOcoBJnBMyusV6lU1xgY8jm5YVtiFfA4eZK5J47/oXaMSl7yi95D0g==",
+  "dgSpecHash": "plX2pDXlFWYM1vhPMorAdYyap2Nrf2zsFyKii0PxIvXVdRTanzr9QjU6HnXJFzZdqAk+tNRopEJyCKog1gVshQ==",
   "success": true,
   "projectFilePath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\system.linq.dynamic.core\\1.3.10\\system.linq.dynamic.core.1.3.10.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\core.persistence\\1.0.0\\core.persistence.1.0.0.nupkg.sha512"
   ],
   "logs": []
