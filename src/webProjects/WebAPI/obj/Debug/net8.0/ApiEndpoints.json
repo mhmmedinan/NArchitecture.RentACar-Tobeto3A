@@ -61,5 +61,84 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CarsController",
+    "Method": "Add",
+    "RelativePath": "api/Cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCarCommand",
+        "Type": "Application.Features.Cars.Command.Create.CreateCarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CarsController",
+    "Method": "GetListPagination",
+    "RelativePath": "api/Cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ModelsController",
+    "Method": "Add",
+    "RelativePath": "api/Models",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Features.Models.Commands.Create.CreateModelCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ModelsController",
+    "Method": "GetList",
+    "RelativePath": "api/Models",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BypassCache",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CacheKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SlidingExpiration",
+        "Type": "System.Nullable\u00601[[System.TimeSpan, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

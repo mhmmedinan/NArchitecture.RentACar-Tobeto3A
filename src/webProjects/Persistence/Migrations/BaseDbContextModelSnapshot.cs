@@ -68,12 +68,9 @@ namespace Persistence.Migrations
                     b.Property<DateTime>("DeletedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModelId")
-                        .HasColumnType("int")
+                    b.Property<Guid>("ModelId")
+                        .HasColumnType("uniqueidentifier")
                         .HasColumnName("ModelId");
-
-                    b.Property<Guid>("ModelId1")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("ModelYear")
                         .HasColumnType("int")
@@ -93,7 +90,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ModelId1");
+                    b.HasIndex("ModelId");
 
                     b.ToTable("Cars", (string)null);
                 });
@@ -175,7 +172,7 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.Model", "Model")
                         .WithMany("Cars")
-                        .HasForeignKey("ModelId1")
+                        .HasForeignKey("ModelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

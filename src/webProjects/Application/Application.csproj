@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Folder Include="Features\Brands\Rules\" />
+    <Folder Include="Features\Models\Constants\" />
   </ItemGroup>
 
   <ItemGroup>

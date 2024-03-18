@@ -4,7 +4,7 @@ namespace Domain.Entities;
 
 public class Car : BaseEntity<Guid>
 {
-    public int ModelId { get; set; }
+    public Guid ModelId { get; set; }
     public int ModelYear { get; set; }
     public string Plate { get; set; }
     public int State { get; set; }  // 1- Available 2- Rented 3-Under Maitenance
@@ -19,7 +19,7 @@ public class Car : BaseEntity<Guid>
         CarImages = new HashSet<CarImage>();
     }
 
-    public Car(Guid id, int modelId, int modelYear,
+    public Car(Guid id, Guid modelId, int modelYear,
         string plate, int state, double dailyPrice) : this()
     {
         Id = id;
