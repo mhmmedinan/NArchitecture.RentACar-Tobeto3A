@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Auth\Commands\Login\" />
+    <Folder Include="Features\Auth\Profiles\" />
     <Folder Include="Features\Brands\Rules\" />
     <Folder Include="Features\Models\Constants\" />
   </ItemGroup>

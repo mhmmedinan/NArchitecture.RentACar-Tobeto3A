@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/TpeXtgEJk/RqRLmWU6vz1gFK1E1SxnhvWnYfEYg37c=",
+  "Hash": "VG9VVXN5DQo5xalpJnznT8eNTJkAn22UlBSMWpY6MSE=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -15,25 +15,5 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\WebAPI\\wwwroot\\Images\\CarImages\\e5baabd999734bb5b78e6aaa392d9337.jpg",
-      "SourceId": "WebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\WebAPI\\wwwroot\\",
-      "BasePath": "_content/WebAPI",
-      "RelativePath": "Images/CarImages/e5baabd999734bb5b78e6aaa392d9337.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\CarImages\\e5baabd999734bb5b78e6aaa392d9337.jpg"
-    }
-  ]
+  "Assets": []
 }

@@ -4,6 +4,7 @@ using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Domain.Entities;
+using Core.Security.Entities;
 
 namespace Persistence.Contexts;
 
@@ -14,9 +15,10 @@ public class BaseDbContext : DbContext
     public DbSet<Model> Models { get; set; }
     public DbSet<Car> Cars { get; set; }
     public DbSet<CarImage> CarImages { get; set; }
-    //public DbSet<User> Users { get; set; }
-    //public DbSet<OperationClaim> OperationClaims { get; set; }
-    //public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<OperationClaim> OperationClaims { get; set; }
+    public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
+    public DbSet<RefreshToken> RefreshTokens { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)

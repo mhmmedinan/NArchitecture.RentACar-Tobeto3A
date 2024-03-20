@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NtPaCPUqXxwww7eRsHtKqRmkrSPCix2qf0rq3MvLKoABRsD1uRe44nechy/CM93Vdqpc7P4td+PN3AKQ6YwKnA==",
+  "dgSpecHash": "JTNLEXssOOStQ6kFwk6ysZZJn7pD8Ykg0Oppp5Lqykv1ETNTlB+JbAlryp8cNngVs3leZAeo94LbXnSxa3kN8g==",
   "success": true,
   "projectFilePath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,10 @@
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.4.1\\microsoft.identitymodel.abstractions.7.4.1.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.4.1\\microsoft.identitymodel.jsonwebtokens.7.4.1.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.identitymodel.logging\\7.4.1\\microsoft.identitymodel.logging.7.4.1.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.4.1\\microsoft.identitymodel.tokens.7.4.1.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
@@ -70,6 +74,7 @@
     "C:\\Users\\Muhammed\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.0\\system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.4.1\\system.identitymodel.tokens.jwt.7.4.1.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\system.io\\4.1.0\\system.io.4.1.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
@@ -102,7 +107,8 @@
     "C:\\Users\\Muhammed\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\core.application\\1.0.0\\core.application.1.0.0.nupkg.sha512",
     "C:\\Users\\Muhammed\\.nuget\\packages\\core.crosscuttingconcerns\\1.0.0\\core.crosscuttingconcerns.1.0.0.nupkg.sha512",
-    "C:\\Users\\Muhammed\\.nuget\\packages\\core.persistence\\1.0.0\\core.persistence.1.0.0.nupkg.sha512"
+    "C:\\Users\\Muhammed\\.nuget\\packages\\core.persistence\\1.0.0\\core.persistence.1.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammed\\.nuget\\packages\\core.security\\1.0.0\\core.security.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
