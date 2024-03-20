@@ -63,6 +63,95 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.CarImagesController",
+    "Method": "Add",
+    "RelativePath": "api/CarImages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CarImagesController",
+    "Method": "Delete",
+    "RelativePath": "api/CarImages/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CarImagesController",
+    "Method": "Update",
+    "RelativePath": "api/CarImages/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CarImagesController",
+    "Method": "GetImagesByCarId",
+    "RelativePath": "api/CarImages/getcarid/{carId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CarImagesController",
+    "Method": "GetAll",
+    "RelativePath": "api/CarImages/getlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.CarsController",
     "Method": "Add",
     "RelativePath": "api/Cars",

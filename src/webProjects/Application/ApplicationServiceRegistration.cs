@@ -25,7 +25,7 @@ public static class ApplicationServiceRegistration
         services.AddSingleton<LoggerServiceBase, MongoDbLogger>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-
+        services.AddScoped<CarImageBusinessRules>();
         services.AddScoped<ICarImageService,CarImageManager>();
 
 
