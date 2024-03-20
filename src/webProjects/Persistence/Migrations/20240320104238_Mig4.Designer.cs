@@ -12,8 +12,8 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20240318123435_Mig3")]
-    partial class Mig3
+    [Migration("20240320104238_Mig4")]
+    partial class Mig4
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -105,12 +105,9 @@ namespace Persistence.Migrations
                         .HasColumnType("uniqueidentifier")
                         .HasColumnName("Id");
 
-                    b.Property<int>("CarId")
-                        .HasColumnType("int")
+                    b.Property<Guid>("CarId")
+                        .HasColumnType("uniqueidentifier")
                         .HasColumnName("CarId");
-
-                    b.Property<Guid>("CarId1")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2")
@@ -131,7 +128,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CarId1");
+                    b.HasIndex("CarId");
 
                     b.ToTable("CarImages", (string)null);
                 });
@@ -186,7 +183,7 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.Car", "Car")
                         .WithMany("CarImages")
-                        .HasForeignKey("CarId1")
+                        .HasForeignKey("CarId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
