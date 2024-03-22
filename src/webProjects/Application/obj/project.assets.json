@@ -5095,7 +5095,9 @@
       "FluentValidation >= 11.9.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.9.0",
       "MediatR >= 12.2.0",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0"
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
+      "Microsoft.Extensions.Configuration.Binder >= 8.0.1"
     ]
   },
   "packageFolders": {
@@ -5169,6 +5171,14 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
+            "target": "Package",
+            "version": "[8.0.1, )"
           }
         },
         "imports": [

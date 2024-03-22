@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 namespace Core.Application.Pipelines.Logging;
 
 public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
-    where TRequest : ILoggableRequest
+    where TRequest : notnull
 {
     private readonly LoggerServiceBase _loggerServiceBase;
     private readonly IHttpContextAccessor _contextAccessor;
@@ -20,18 +20,48 @@ public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, 
 
     public Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
     {
-        List<LogParameter> logParameters = new();
-        logParameters.Add(new LogParameter() { Value = request ,Type=request.GetType().Name});
-
-        LogDetail logDetail = new()
+        var loggableRequestLogin = request as ILoggableLoginRequest;
+        if (loggableRequestLogin != null)
         {
-            MethodName = next.Method.Name,
-            Parameters = logParameters,
-            User = _contextAccessor.HttpContext == null || _contextAccessor.HttpContext.User.Identity.Name == null ? "?" : _contextAccessor.HttpContext.User.Identity.Name
-        };
-        _loggerServiceBase.Info(JsonConvert.SerializeObject(logDetail));
+            var password = loggableRequestLogin.Password;
+            loggableRequestLogin.Password = null;
+
+            List<LogParameter> logParameters = new();
+            logParameters.Add(new LogParameter() { Value = request, Type = request.GetType().Name });
+
+            LogDetail logDetail = new()
+            {
+                MethodName = next.Method.Name,
+                Parameters = logParameters,
+                User = _contextAccessor.HttpContext == null || _contextAccessor.HttpContext.User.Identity.Name == null ? "?" : _contextAccessor.HttpContext.User.Identity.Name
+            };
+            _loggerServiceBase.Info(JsonConvert.SerializeObject(logDetail));
+
+            loggableRequestLogin.Password = password;
+        }
+        else
+        {
+            var loggableRequest = request as ILoggableRequest;
+            if (loggableRequest != null)
+            {
+                List<LogParameter> logParameters = new();
+                logParameters.Add(new LogParameter() { Value = request, Type = request.GetType().Name });
+
+                LogDetail logDetail = new()
+                {
+                    MethodName = next.Method.Name,
+                    Parameters = logParameters,
+                    User = _contextAccessor.HttpContext == null || _contextAccessor.HttpContext.User.Identity.Name == null ? "?" : _contextAccessor.HttpContext.User.Identity.Name
+                };
+                _loggerServiceBase.Info(JsonConvert.SerializeObject(logDetail));
+            }
+
+
+        }
         return next();
     }
 
 
+
 }
+

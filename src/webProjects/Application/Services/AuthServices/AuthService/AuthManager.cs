@@ -2,6 +2,7 @@
 using Core.Security.Entities;
 using Core.Security.JWT;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace Application.Services.AuthServices.AuthService;
 
@@ -12,11 +13,11 @@ public class AuthManager : IAuthService
     private readonly TokenOptions _tokenOptions;
     private readonly IUserOperationClaimRepository _userOperationClaimRepository;
 
-    public AuthManager(IRefreshTokenRepository refreshTokenRepository, ITokenHelper tokenHelper, TokenOptions tokenOptions, IUserOperationClaimRepository userOperationClaimRepository)
+    public AuthManager(IRefreshTokenRepository refreshTokenRepository, ITokenHelper tokenHelper, IUserOperationClaimRepository userOperationClaimRepository,IConfiguration configuration)
     {
         _refreshTokenRepository = refreshTokenRepository;
         _tokenHelper = tokenHelper;
-        _tokenOptions = tokenOptions;
+        _tokenOptions = configuration.GetSection("TokenOptions").Get<TokenOptions>();
         _userOperationClaimRepository = userOperationClaimRepository;
     }
 

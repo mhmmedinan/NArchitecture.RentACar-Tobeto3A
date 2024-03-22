@@ -1,4 +1,5 @@
 ﻿using Application.Features.Brands.Dtos;
+using Core.Application.Pipelines.Authorization;
 using Core.Application.Pipelines.Caching;
 using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Performance;
@@ -6,7 +7,7 @@ using MediatR;
 
 namespace Application.Features.Brands.Commands.Create;
 
-public class CreateBrandCommand:IRequest<CreatedBrandResponse>,IIntervalRequest,ILoggableRequest,ICacheRemoverRequest
+public class CreateBrandCommand:IRequest<CreatedBrandResponse>,IIntervalRequest,ILoggableRequest,ICacheRemoverRequest,ISecuredRequest
 {
     public string Name { get; set; }
 
@@ -14,6 +15,8 @@ public class CreateBrandCommand:IRequest<CreatedBrandResponse>,IIntervalRequest,
 
     public bool BypassCache { get; }
     public string CacheKey => "brand-list";
+
+    public string[] Roles => new[] {"Admin","Brand.Add"};
 };
 
   

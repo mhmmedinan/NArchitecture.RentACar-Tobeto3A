@@ -342,7 +342,7 @@ namespace Persistence.Migrations
                     b.HasOne("Core.Security.Entities.User", "User")
                         .WithMany("RefreshTokens")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("User");
@@ -353,13 +353,13 @@ namespace Persistence.Migrations
                     b.HasOne("Core.Security.Entities.OperationClaim", "OperationClaim")
                         .WithMany()
                         .HasForeignKey("OperationClaimId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Core.Security.Entities.User", "User")
                         .WithMany("UserOperationClaims")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("OperationClaim");
@@ -372,7 +372,7 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Entities.Model", "Model")
                         .WithMany("Cars")
                         .HasForeignKey("ModelId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Model");
@@ -383,7 +383,7 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Entities.Car", "Car")
                         .WithMany("CarImages")
                         .HasForeignKey("CarId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Car");
@@ -394,7 +394,7 @@ namespace Persistence.Migrations
                     b.HasOne("Domain.Entities.Brand", "Brand")
                         .WithMany("Models")
                         .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Brand");

@@ -1,4 +1,5 @@
-﻿using Application.Services.AuthServices.AuthService;
+﻿using Application.Features.Auth.Rules;
+using Application.Services.AuthServices.AuthService;
 using Application.Services.AuthServices.UserService;
 using Application.Services.CarImageService;
 using Core.Application.Pipelines.Authorization;
@@ -29,6 +30,7 @@ public static class ApplicationServiceRegistration
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
         services.AddScoped<CarImageBusinessRules>();
+        services.AddScoped<AuthBusinessRules>();
         services.AddScoped<ICarImageService,CarImageManager>();
         services.AddScoped<IUserService,UserManager>();
         services.AddScoped<IAuthService,AuthManager>();

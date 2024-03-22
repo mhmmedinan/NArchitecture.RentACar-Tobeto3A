@@ -183,3 +183,4 @@ C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitec
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\WebAPI\bin\Debug\net8.0\WebAPI.staticwebassets.runtime.json
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\WebAPI\bin\Debug\net8.0\Core.Security.dll
 C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\WebAPI\bin\Debug\net8.0\Core.Security.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

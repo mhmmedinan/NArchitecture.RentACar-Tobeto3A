@@ -15,7 +15,7 @@ public class RefreshToken:BaseEntity<Guid>
 
     public virtual User User { get; set; }
 
-    public RefreshToken(Guid userId, string token, DateTime expires, string createdByIp, DateTime? revoked, string? revokedByIp, string? replacedByToken, string? reasonRevoked)
+    public RefreshToken(Guid userId, string token, DateTime expires, string createdByIp, DateTime? revoked, string? revokedByIp, string? replacedByToken, string? reasonRevoked):this()
     {
         UserId = userId;
         Token = token;
