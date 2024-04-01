@@ -9,4 +9,6 @@ public class GetListCarResponse
     public string Plate { get; set; }
     public int State { get; set; }  // 1- Available 2- Rented 3-Under Maitenance
     public double DailyPrice { get; set; }
+    public Guid Id { get; set; }
+    public string ImagePath { get; set; }
 }

@@ -5,11 +5,7 @@ using MediatR;
 
 namespace Application.Features.Models.Queries.GetListModel;
 
-public class GetListModelQuery : IRequest<List<GetListModelResponse>>, ICachableRequest
+public class GetListModelQuery : IRequest<List<GetListModelResponse>>
 {
-    public bool BypassCache { get; }
-
-    public string CacheKey => "model-list";
-
-    public TimeSpan? SlidingExpiration { get; }
+    public Guid BrandId { get; set; }
 }

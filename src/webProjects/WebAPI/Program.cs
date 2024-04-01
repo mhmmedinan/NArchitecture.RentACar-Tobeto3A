@@ -6,7 +6,7 @@ using Core.Security.JWT;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Core.Security.Encryption;
 using Microsoft.OpenApi.Models;
-using System.Text.Json.Serialization;
+using Insfrastructure;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +18,7 @@ builder.Services.AddControllers();
 builder.Services.AddPersistenceServices(builder.Configuration);
 builder.Services.AddApplicationServices();
 builder.Services.AddSecurityServices();
+builder.Services.AddInfrastructureServices();
 
 
 TokenOptions? tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
@@ -72,6 +73,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     //app.ConfigureCustomExceptionMiddleware();
 }
+app.UseCors(builder =>
+{
+    builder
+        .WithOrigins("http://localhost:4200", "http://localhost:5190" )
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials();
+});
+app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();

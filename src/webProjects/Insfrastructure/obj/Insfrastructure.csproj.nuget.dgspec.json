@@ -4,14 +4,100 @@
     "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj": {
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj",
-        "projectName": "Insfrastructure",
-        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj",
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+        "projectName": "Core.Application",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Application\\Core.Application.csproj",
         "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
-        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\obj\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Muhammed\\source\\repos\\Microservices\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.CrossCutting\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.CrossCutting\\Core.CrossCuttingConcerns.csproj"
+              },
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.CrossCutting\\Core.CrossCuttingConcerns.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.CrossCutting\\Core.CrossCuttingConcerns.csproj",
+        "projectName": "Core.CrossCuttingConcerns",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.CrossCutting\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +131,432 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.MongoDB": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "projectName": "Core.Persistence",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Muhammed\\source\\repos\\Microservices\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "projectName": "Core.Security",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Muhammed\\source\\repos\\Microservices\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Muhammed\\source\\repos\\Microservices\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Application\\Core.Application.csproj"
+              },
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Muhammed\\source\\repos\\Microservices\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj",
+        "projectName": "Insfrastructure",
+        "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\Insfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Insfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Muhammed\\source\\repos\\Microservices\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\Application.csproj": {
+                "projectPath": "C:\\Kodlama.io\\Tobeto\\Tobeto.Net3A\\NArchitecture.RentacarProject-Tobeto\\NArchitecture.RentacarProject-Tobeto\\src\\webProjects\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.26.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -20,7 +20,7 @@ public class GetListModelQueryHandler : IRequestHandler<GetListModelQuery, List<
 
     public async Task<List<GetListModelResponse>> Handle(GetListModelQuery request, CancellationToken cancellationToken)
     {
-        List<Model> models = await _modelRepository.GetAllAsync(include: x => x.Include(x => x.Brand));
+        List<Model> models = await _modelRepository.GetAllAsync(include: x => x.Include(x => x.Brand),predicate:x=>x.BrandId==request.BrandId);
         List<GetListModelResponse> responses = _mapper.Map<List<GetListModelResponse>>(models);
         return responses;
     }

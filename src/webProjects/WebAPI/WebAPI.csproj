@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\corePackages\Core.CrossCutting\Core.CrossCuttingConcerns.csproj" />
     <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Insfrastructure\Insfrastructure.csproj" />
     <ProjectReference Include="..\Persistence\Persistence.csproj" />
   </ItemGroup>
 

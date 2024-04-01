@@ -1,4 +1,5 @@
-﻿using Application.Features.Models.Commands.Create;
+﻿using Application.Features.Cars.Queries.GetListCarByModelId;
+using Application.Features.Models.Commands.Create;
 using Application.Features.Models.Queries.GetListModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -19,11 +20,12 @@ namespace WebAPI.Controllers
             return Created("",result);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetList([FromQuery]GetListModelQuery modelQuery)
+        [HttpGet("{BrandId}")]
+        public async Task<IActionResult> GetList([FromRoute]GetListModelQuery modelQuery)
         {
             var result = await Mediator.Send(modelQuery);
             return Ok(result);
         }
+
     }
 }

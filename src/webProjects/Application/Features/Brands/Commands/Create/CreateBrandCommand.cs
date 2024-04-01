@@ -7,16 +7,12 @@ using MediatR;
 
 namespace Application.Features.Brands.Commands.Create;
 
-public class CreateBrandCommand:IRequest<CreatedBrandResponse>,IIntervalRequest,ILoggableRequest,ICacheRemoverRequest,ISecuredRequest
+public class CreateBrandCommand:IRequest<CreatedBrandResponse>,IIntervalRequest,ILoggableRequest
 {
     public string Name { get; set; }
 
     public int Interval => 1;
 
-    public bool BypassCache { get; }
-    public string CacheKey => "brand-list";
-
-    public string[] Roles => new[] {"Admin","Brand.Add"};
 };
 
   

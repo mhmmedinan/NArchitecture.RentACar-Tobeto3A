@@ -1,4 +1,5 @@
-﻿using Application.Services.Repositories;
+﻿using Application.Services.ImagesServices;
+using Application.Services.Repositories;
 using Core.CrossCutting.Utilities.Helpers;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -10,24 +11,22 @@ public class CarImageManager : ICarImageService
 {
     private readonly ICarImageRepository _carImageRepository;
     private readonly CarImageBusinessRules _carImageBusinessRules;
-
-    public CarImageManager(ICarImageRepository carImageRepository, CarImageBusinessRules carImageBusinessRules)
+    private readonly ImageServiceBase _imageService;
+    public CarImageManager(ICarImageRepository carImageRepository, CarImageBusinessRules carImageBusinessRules, ImageServiceBase imageService)
     {
         _carImageRepository = carImageRepository;
         _carImageBusinessRules = carImageBusinessRules;
+        _imageService = imageService;
     }
 
     public async Task<CarImage> Add(IFormFile file, CarImageRequest request)
     {
-        await _carImageBusinessRules.CheckIfCarImageNull(request.CarId);
-        await _carImageBusinessRules.CheckIfCarImageFormat(file);
-        await _carImageBusinessRules.CheckIfImageLimit(request.CarId);
         CarImage carImage = new CarImage()
         {
             CarId = request.CarId,
             ImagePath = request.ImagePath,
         };
-        carImage.ImagePath = FileHelper.Add(file, "CarImages");
+        carImage.ImagePath = await _imageService.UploadAsync(file);
        return await _carImageRepository.AddAsync(carImage);
 
     }

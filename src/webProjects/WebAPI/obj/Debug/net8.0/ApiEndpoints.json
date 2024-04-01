@@ -49,6 +49,22 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.BrandsController",
+    "Method": "GetListPagination",
+    "RelativePath": "api/Brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brandQuery",
+        "Type": "Application.Features.Brands.Queries.GetListPagination.GetListPaginationBrandQuery",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.BrandsController",
     "Method": "GetListDynamic",
     "RelativePath": "api/Brands/dynamic",
     "HttpMethod": "POST",
@@ -69,27 +85,6 @@
         "Name": "dynamic",
         "Type": "Core.Persistence.Dynamic.Dynamic",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.BrandsController",
-    "Method": "GetListPagination",
-    "RelativePath": "api/Brands/pagination",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Page",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -221,6 +216,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.CarsController",
+    "Method": "GetListCarByModelId",
+    "RelativePath": "api/Cars/getcarbymodel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "modelId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.ModelsController",
     "Method": "Add",
     "RelativePath": "api/Models",
@@ -239,25 +260,15 @@
   {
     "ContainingType": "WebAPI.Controllers.ModelsController",
     "Method": "GetList",
-    "RelativePath": "api/Models",
+    "RelativePath": "api/Models/{BrandId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "BypassCache",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "CacheKey",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "SlidingExpiration",
-        "Type": "System.Nullable\u00601[[System.TimeSpan, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Name": "BrandId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

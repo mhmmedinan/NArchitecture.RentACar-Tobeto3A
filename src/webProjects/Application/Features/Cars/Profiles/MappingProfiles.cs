@@ -14,7 +14,8 @@ public class MappingProfiles:Profile
         CreateMap<Car, CreateCarCommand>().ReverseMap();
         CreateMap<Car, CreateCarResponse>().ReverseMap();
         CreateMap<Car, GetListCarResponse>()
-            .ForMember(destinationMember:x=>x.BrandName,memberOptions:opt=>opt.MapFrom(x=>x.Model.Brand.Name));
+            .ForMember(destinationMember: x => x.BrandName, memberOptions: opt => opt.MapFrom(x => x.Model.Brand.Name))
+            .ForMember(destinationMember: x => x.ImagePath, memberOptions: opt => opt.MapFrom(x => x.CarImages.FirstOrDefault().ImagePath));
         CreateMap<IPaginate<Car>, CarListModel>().ReverseMap();
     }
 }
