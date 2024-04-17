@@ -13,6 +13,7 @@ public class LoggedDto
     public string IPAddress { get; set; }
 
 
+
     public LoggedResponseDto CreateResponseDto()
     {
         return new() { AccessToken=AccessToken,RequiredAuthenticatorType=RequiredAuthenticatorType,OperatingSystem=OperatingSystem,IPAddress=IPAddress};

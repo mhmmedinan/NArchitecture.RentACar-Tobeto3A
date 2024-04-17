@@ -19,9 +19,9 @@ namespace WebAPI.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> GetListPagination([FromQuery] PageRequest pageRequest)
+        public async Task<IActionResult> GetListPagination([FromQuery]PageRequest pageRequest)
         {
-            GetListPaginationCarQuery query = new() { PageRequest = pageRequest};
+            GetListPaginationCarQuery query = new() { PageRequest = pageRequest };
             CarListModel result = await Mediator.Send(query);
             return Ok(result);
         }

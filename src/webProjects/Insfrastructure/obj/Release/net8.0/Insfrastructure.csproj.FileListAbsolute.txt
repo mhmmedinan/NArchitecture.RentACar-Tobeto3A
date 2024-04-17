@@ -1,0 +1,14 @@
+C:\build\Insfrastructure.deps.json
+C:\build\Insfrastructure.dll
+C:\build\Insfrastructure.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.csproj.AssemblyReference.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.AssemblyInfoInputs.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.AssemblyInfo.cs
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.csproj.CoreCompileInputs.cache
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.sourcelink.json
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrast.E79D5D96.Up2Date
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\refint\Insfrastructure.dll
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\Insfrastructure.pdb
+C:\Kodlama.io\Tobeto\Tobeto.Net3A\NArchitecture.RentacarProject-Tobeto\NArchitecture.RentacarProject-Tobeto\src\webProjects\Insfrastructure\obj\Release\net8.0\ref\Insfrastructure.dll

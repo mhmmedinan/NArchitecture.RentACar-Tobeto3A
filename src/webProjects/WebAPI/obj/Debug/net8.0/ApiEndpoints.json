@@ -65,6 +65,22 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.BrandsController",
+    "Method": "Delete",
+    "RelativePath": "api/Brands/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.BrandsController",
     "Method": "GetListDynamic",
     "RelativePath": "api/Brands/dynamic",
     "HttpMethod": "POST",

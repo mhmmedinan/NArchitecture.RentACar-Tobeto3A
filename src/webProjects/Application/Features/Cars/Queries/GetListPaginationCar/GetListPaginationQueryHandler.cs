@@ -22,7 +22,7 @@ public class GetListPaginationQueryHandler : IRequestHandler<GetListPaginationCa
     public async Task<CarListModel> Handle(GetListPaginationCarQuery request, CancellationToken cancellationToken)
     {
         IPaginate<Car> cars = await _carRepository.GetListPaginateAsync
-             (index: request.PageRequest.Page, size: request.PageRequest.PageSize,include:x=>x.Include(x=>x.Model).Include(x=>x.Model.Brand).Include(x=>x.CarImages));
+             (index:request.PageRequest.Page,size:request.PageRequest.PageSize, include:x=>x.Include(x=>x.Model).Include(x=>x.Model.Brand).Include(x=>x.CarImages));
         CarListModel carListModel = _mapper.Map<CarListModel>(cars);
         return carListModel;
     }

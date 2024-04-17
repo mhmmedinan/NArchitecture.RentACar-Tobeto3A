@@ -1,4 +1,5 @@
 ﻿using Application.Features.Brands.Commands.Create;
+using Application.Features.Brands.Commands.Delete;
 using Application.Features.Brands.Models;
 using Application.Features.Brands.Queries.GetListDynamic;
 using Application.Features.Brands.Queries.GetListPagination;
@@ -17,6 +18,12 @@ namespace WebAPI.Controllers
         public async Task<IActionResult> Add([FromBody] CreateBrandCommand command)
         {
             return Created("", await Mediator.Send(command));
+        }
+
+        [HttpDelete("{Id}")]
+        public async Task<IActionResult> Delete([FromRoute] DeleteBrandCommand deleteBrandCommand)
+        {
+            return Ok(await Mediator.Send(deleteBrandCommand));
         }
 
 
